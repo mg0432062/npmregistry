@@ -1,0 +1,21 @@
+{
+  "name": "test_module",
+  "version": "0.1.0",
+  "description": "Tests MBaaS functionality.",
+  "main": "test_module.js",
+  "keywords": [
+    "mbwrap"
+  ],
+  "author": "IBM",
+  "license": "IBM",
+  "configuration": [
+    {
+      "name": "paramOne",
+      "description": "The first param",
+      "defaultValue": "A reasonable value for first param"
+    },
+    {
+        "name": "paramTwo"
+    }
+  ]
+}
